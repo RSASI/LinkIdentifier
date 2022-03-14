@@ -1,0 +1,80 @@
+{
+    "Database Confiugration":
+            {
+                "IPAddress": "DESKTOP-NMQJ2B2",
+                "Username": "sa",
+                "Password": "sql2019",
+                "Database": "ACE",
+                "InputTable": "DomainValidation_13032022",
+                "OutputTable": "LinkExtraction_13032022",
+                "Deadlockpriority":"5"
+            },
+            "OtherDomains":
+            {
+                "otherDomains":false
+            },
+    "Crawling Approach - To Select the Operation which is need to Extract the links (true=Enable, false=Disable)":
+            {
+                "Sitemap": false,
+                "DepthLevel": true
+            },
+    "Mention keyword names that contains in bucket":
+            {
+                "KeywordFileNames": "AddressGeneralKeywords~AddressProrirtyKeywords~MyList"
+
+            },
+   "Mention Depth MAX 10":
+            {
+                "Depth": 2
+
+            },		
+   "Define Infra - d2k or local or mobito":
+            {
+                "Type": "d2k"
+            },
+    "Link count need to be extract":    
+            {
+                "Linklimit": 5000
+            },
+    "Mention Depth Level - Here Max - 10":
+            {
+                "depthLevel": 3
+            },
+    "To Select the Link Cleansing Approaches (true=Enable, false=Disable)":
+            {
+                "SocialMediaRemoval": false,
+                "BlackListedDomainRemoval": false,
+                "JunkRemoval": false
+            },
+    "To check Store Locator (true=Enable, false=Disable)":
+            {
+                "StoreLocator": false
+            },
+    "Total Thread pool Size":
+            {
+                "Threadpoolsize": 2
+            },
+    "Processing  Time Interval per URL Default = 2":
+            {
+                "ProcessingTimeOut": 2
+            },
+    "To load urls using proxy ips":
+            {
+                "loadfromproxy": false,
+                "proxyip": "165.231.14.72",
+                "port": 80
+            },
+    "Start record id & End Range record id":
+            {
+                "startID": 1,
+                "endID": 10
+            },
+    
+            
+    "URL Connection Timeout in milli secs":
+            {
+                "Timeout": 30000,
+                "TimeoutForProcessingInMinutes": 10,
+                "TimeRelayInSeconds": 30
+            }
+}
